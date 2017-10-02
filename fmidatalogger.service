@@ -1,0 +1,12 @@
+[Unit]
+Description=FMI data logging service
+After=multi-user.target
+
+[Service]
+User=tlapinla
+EnvironmentFile=/home/tlapinla/dev/fmi-datalogger/environment
+ExecStart=/home/tlapinla/dev/fmi-datalogger/fmidatalogger.py
+
+[Install]
+WantedBy=multi-user.target
+

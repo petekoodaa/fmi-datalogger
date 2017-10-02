@@ -1,0 +1,3 @@
+[submodule "fmi-opendata-python"]
+	path = fmi-opendata-python
+	url = https://github.com/tlapinla/fmi-opendata-python.git
